@@ -1,3 +1,13 @@
+Stack: 
+* HTML
+* Bootstrap
+* JS
+* API
+* React (React Hooks and Class Components)
+* React Routing
+___
+For convenience, there is a live API server running at [this page](https://sw-info-api.herokuapp.com/) for the application to make requests against.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
