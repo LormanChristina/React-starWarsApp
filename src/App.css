@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+#root {
+  font-family: 'Poller One', cursive;
+  background-image: url("./Images/sky.jpg");
+  color: whitesmoke;
+  background-attachment: fixed;
+}
+
+header, footer {
+  background-color: rgba(60, 69, 67, 0.6);
+}
+
+.btn {
+  background-color: rgba(204, 3, 35, 0.5);
+}
+
+header {
+  border-radius: 15px 15px 0 0;
+}
+
+header h1 {
+  letter-spacing: 0.2em;
+}
+
+footer {
+  border-radius: 0 0 15px 15px;
+  height: 5em;
+}
+
+.email {
+  font-size: 1.2em;
+  color: black;
+}
+
+.float-right img {
+  box-shadow: none;
+}
+
+img {
+  transition: 1s;
+  border-radius: 20px;
+  height: 100%;
+}
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.planetBlock {
+  background-image: url('../src/Images/planet.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.planetBlock:hover {
+  cursor: pointer;
+  background-color: #977e7e;
+}
+
+.noDisplayPlanet {
+  display: none;
+}
+
+.displayPlanet {
+  display: block;
+  background-image: url('../src/Images/planet.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  margin: 0;
+  padding: 15px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: rgba(204, 3, 35, 0.5);
+  margin: 0;
+}
+
+h3 span {
+  color: #FFF;
+}

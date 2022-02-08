@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Poller One', cursive;
+  background-image: url("./Images/sky.jpg");
+  color: whitesmoke;
+  background-attachment: fixed;
+}
+
+header, footer {
+  background-color: rgba(60, 69, 67, 0.6);
+}
+
+.btn {
+  background-color: rgba(204, 3, 35, 0.5);
+}
+
+header {
+  border-radius: 15px 15px 0 0;
+}
+
+header h1 {
+  letter-spacing: 0.2em;
+}
+
+footer {
+  border-radius: 0 0 15px 15px;
+  height: 5em;
+}
+
+.email {
+  font-size: 1.2em;
+  color: black;
+}
+
+/*section.float-right.rounded-bottom {*/
+/*  border-bottom-right-radius: 15px !important;*/
+/*  border-bottom-left-radius: 15px !important;*/
+/*}*/
+
+.farGalaxy {
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+
+.bottom-right {
+  border-bottom-right-radius: 15px;
+}
+
+.bottom-left {
+  border-bottom-left-radius: 15px;
+}
+
+.list_features li {
+  list-style: none;
+  padding: 5px 0;
+  font-size: large;
+}
+
+.sub_menu {
+  display: none;
+}
